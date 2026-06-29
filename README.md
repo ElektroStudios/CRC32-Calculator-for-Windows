@@ -55,7 +55,7 @@ CRC-32 Calculator for Windows is a straightforward, no-frills graphical utility 
 
 ## 🤖 Getting Started
 
-Download the latest compilation by clicking [here](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest).
+Download the latest release by clicking [here](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest) and start using it!.
 
 ## 🔄 Change Log
 
