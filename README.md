@@ -37,7 +37,7 @@ winforms
 
 ## 👋 Introduction
 
-CRC-32 Calculator for Windows is a straightforward, no-frills graphical utility designed to calculate the CRC-32 checksum of any file. It does one thing without unnecessary complexity: you give it a file, and it gives you the checksum.
+**CRC-32 Calculator for Windows** is a straightforward, no-frills graphical utility designed to calculate the CRC-32 checksum of any file. It does one thing without unnecessary complexity: you give it a file, and it gives you the checksum.
 
 ## 👌 Features
 
