@@ -1,11 +1,19 @@
 <!-- Common Project Tags:
-command-line 
-console-applications 
+checksum 
+checksum-calculation 
+checksums 
+crc 
+crc32 
+crc32-hash 
 desktop-app 
 desktop-application 
+desktop-apps 
+desktopapp 
+desktopapplication 
 dotnet 
-dotnet-core 
-netcore 
+file-analyzer 
+file-checker 
+file-checksum 
 netframework 
 netframework48 
 tool 
@@ -17,33 +25,29 @@ windows-app
 windows-application 
 windows-applications 
 windows-forms 
+windowsapp 
 winforms 
  -->
 
-# PROJECT NAME
+# CRC-32 Calculator for Windows
 
-### PROJECT DESCRIPTION
+### A lightweight graphical user-interface (GUI) tool to compute CRC-32 checksums for files of any size.
 
 ------------------
 
 ## 👋 Introduction
 
-INTRODUCTION TEXT
+CRC-32 Calculator for Windows is a straightforward, no-frills graphical utility designed to calculate the CRC-32 checksum of any file. It does one thing without unnecessary complexity: you give it a file, and it gives you the checksum.
 
 ## 👌 Features
 
-FEATURES TEXT
+*   **Simple GUI:** Clear and minimalistic interface with no steep learning curve.
+*   **No Size Limits:** Efficiently processes files of any size without freezing or high memory consumption.
+*   **Portable:** A complete, self-contained tool ready to use right away.
 
 ## 🖼️ Screenshots
 
-![screenshot](/Images/screenshot.png)
-
-## 🎦 Videos
-
-<!-- Download a recorded video by clicking [here](/Video/video.mp4) -->
-
-<!-- See a recorded video by clicking on the following button:
-[![PROJECT_NAME DEMO VIDEO](Images/demo_video.jpg)](https://www.youtube.com/watch?v=XXXXXXXXX)  -->
+![screenshot](/Images/screenshot1.png)
 
 ## 📝 Requirements
 
@@ -51,7 +55,7 @@ FEATURES TEXT
 
 ## 🤖 Getting Started
 
-Download the latest compilation by clicking [here](https://github.com/ElektroStudios/PROJECT_NAME/releases/latest).
+Download the latest compilation by clicking [here](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest).
 
 ## 🔄 Change Log
 
@@ -71,7 +75,7 @@ This Work has no affiliation, approval or endorsement by the author(s) of the th
 
 ## 💪 Contributing
 
-Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/PROJECT_NAME/issues/new/choose). 
+Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues/new/choose). 
 
 Your input helps make this Work better for everyone. Thank you for your support! 🚀
 

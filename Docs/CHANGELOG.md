@@ -1,12 +1,4 @@
-# REPOSITORY NAME Change Log 📋
+# CRC-32 Calculator for Windows Change Log 📋
 
-## v1.1 *(current)* 🆕
-#### 🚀 New Features:
-    • Description
-#### 🛠️ Fixes:
-    • Description
-#### 🌟 Improvements:
-    • Description
-
-## v1.0 🔄
+## v1.0 🆕
 Initial Release.
