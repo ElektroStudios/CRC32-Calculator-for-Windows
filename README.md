@@ -47,7 +47,9 @@ winforms
 
 ## 🖼️ Screenshots
 
-![screenshot](/Images/screenshot1.png)
+![screenshot1](/Images/screenshot1.png)
+
+![screensho2](/Images/screenshot2.png)
 
 ## 📝 Requirements
 
