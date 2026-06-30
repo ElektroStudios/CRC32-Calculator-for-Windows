@@ -64,8 +64,8 @@ Namespace DevCase.Win32.NativeMethods
         ''' </param>
         '''
         ''' <returns>
-        ''' If this function succeeds, it returns <see cref="HResult.S_OK"/>.
-        ''' Otherwise, it returns an <see cref="HResult"/> error code.
+        ''' If this function succeeds, it returns HResult.S_OK.
+        ''' Otherwise, it returns an HResult error code.
         ''' </returns>
         <DllImport(Win32LibNames.ShlwApi, SetLastError:=False, ExactSpelling:=True, CharSet:=CharSet.Unicode)>
         Public Function StrFormatByteSizeEx(number As ULong,

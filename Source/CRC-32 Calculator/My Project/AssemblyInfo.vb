@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("CRC-32 Calculator")>
-<Assembly: AssemblyDescription("A simple CRC-32 checksum calculator for files.")>
+<Assembly: AssemblyDescription("A simple CRC-32 checksum calculator for files of any size.")>
 <Assembly: AssemblyCompany("ElektroStudios")>
 <Assembly: AssemblyProduct("CRC-32 Calc")>
 <Assembly: AssemblyCopyright("Copyright © ElektroStudios 2026")>
@@ -29,6 +29,6 @@ Imports System.Runtime.InteropServices
 '      Revision
 '
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.0.1.0")>
+<Assembly: AssemblyFileVersion("1.0.1.0")>
 <Assembly: NeutralResourcesLanguage("en")>

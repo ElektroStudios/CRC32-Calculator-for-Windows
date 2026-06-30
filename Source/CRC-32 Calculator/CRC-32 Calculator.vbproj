@@ -67,10 +67,13 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppGlobals.vb" />
+    <Compile Include="devcase\BufferSizes.vb" />
     <Compile Include="devcase\NativeMethods_ShlwApi.vb" />
     <Compile Include="devcase\NativeMethods_NtDll.vb" />
     <Compile Include="devcase\StrFormatByteSizeFlags.vb" />
     <Compile Include="devcase\UtilChecksum.vb" />
+    <Compile Include="devcase\UtilStream.vb" />
     <Compile Include="devcase\Win32LibNames.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -79,6 +82,8 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="helpers\FileInfoHelper.vb" />
+    <Compile Include="helpers\PathHelper.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +104,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="user controls\TextToolStripProgressBar.vb">
+      <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

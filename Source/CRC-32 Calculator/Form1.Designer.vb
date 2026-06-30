@@ -35,6 +35,7 @@ Partial Class Form1 : Inherits System.Windows.Forms.Form
         Me.ButtonCopy = New System.Windows.Forms.Button()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.TextToolStripProgressBar1 = New TextToolStripProgressBar()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -101,13 +102,17 @@ Partial Class Form1 : Inherits System.Windows.Forms.Form
         'LinkLabelGithub
         '
         Me.LinkLabelGithub.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
-        Me.LinkLabelGithub.Location = New System.Drawing.Point(320, 45)
+        Me.LinkLabelGithub.Location = New System.Drawing.Point(320, 47)
         Me.LinkLabelGithub.Name = "LinkLabelGithub"
-        Me.LinkLabelGithub.Size = New System.Drawing.Size(24, 27)
+        Me.LinkLabelGithub.Size = New System.Drawing.Size(33, 27)
         Me.LinkLabelGithub.TabIndex = 7
         Me.LinkLabelGithub.TabStop = True
         Me.LinkLabelGithub.Text = "🌐"
         Me.LinkLabelGithub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'ToolTip1
+        '
+        Me.ToolTip1.ShowAlways = True
         '
         'ButtonClear
         '
@@ -137,7 +142,8 @@ Partial Class Form1 : Inherits System.Windows.Forms.Form
         '
         'StatusStrip1
         '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.GripMargin = New System.Windows.Forms.Padding(0)
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.TextToolStripProgressBar1})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 79)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(364, 22)
@@ -147,9 +153,20 @@ Partial Class Form1 : Inherits System.Windows.Forms.Form
         '
         'ToolStripStatusLabel1
         '
+        Me.ToolStripStatusLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(57, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(297, 17)
+        Me.ToolStripStatusLabel1.Spring = True
         Me.ToolStripStatusLabel1.Text = "Waiting..."
+        Me.ToolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'TextToolStripProgressBar1
+        '
+        Me.TextToolStripProgressBar1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.TextToolStripProgressBar1.AutoSize = False
+        Me.TextToolStripProgressBar1.CustomText = "0%"
+        Me.TextToolStripProgressBar1.Name = "TextToolStripProgressBar1"
+        Me.TextToolStripProgressBar1.Size = New System.Drawing.Size(50, 16)
         '
         'Form1
         '
@@ -195,4 +212,5 @@ Partial Class Form1 : Inherits System.Windows.Forms.Form
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents TextToolStripProgressBar1 As TextToolStripProgressBar
 End Class
