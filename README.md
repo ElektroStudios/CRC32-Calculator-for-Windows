@@ -30,7 +30,7 @@ winforms
  -->
 
 <div align="center">
-  <img src="/Images/App.ico" width="80" alt="FIV Logo">
+  <img src="/Images/App.ico" width="80" alt="CRC-32 Calculator Logo">
   
   <h1>CRC-32 Calculator for Windows</h1>
 
