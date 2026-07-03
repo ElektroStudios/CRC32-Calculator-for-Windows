@@ -29,9 +29,14 @@ windowsapp
 winforms 
  -->
 
-# CRC-32 Calculator for Windows
+<div align="center">
+  <img src="/Images/App.ico" width="80" alt="FIV Logo">
+  
+  <h1>CRC-32 Calculator for Windows</h1>
 
 ### A lightweight graphical user-interface (GUI) tool to compute CRC-32 checksums for files of any size.
+
+</div>
 
 ------------------
 
@@ -39,17 +44,17 @@ winforms
 
 **CRC-32 Calculator for Windows** is a straightforward, no-frills graphical utility designed to calculate the CRC-32 checksum of any file. It does one thing without unnecessary complexity: you give it a file, and it gives you the checksum.
 
-## 👌 Features
-
-*   **Simple GUI:** Clear and minimalistic interface with no steep learning curve.
-*   **No Size Limits:** Efficiently processes files of any size without freezing or high memory consumption.
-*   **Portable:** A complete, self-contained tool ready to use right away.
-
 ## 🖼️ Screenshots
 
 ![screenshot1](/Images/screenshot1.png)
 
 ![screensho2](/Images/screenshot2.png)
+
+## 👌 Features
+
+*   **Simple GUI:** Clear and minimalistic interface with no steep learning curve.
+*   **No Size Limits:** Efficiently processes files of any size without freezing or high memory consumption.
+*   **Portable:** A complete, self-contained tool ready to use right away.
 
 ## 📝 Requirements
 
