@@ -40,7 +40,7 @@ winforms
 
 ------------------
 
-[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?branch=master&svg=true)](https://ci.appveyor.com/project/MouriNaruto/nsudo)
+[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?branch=master&svg=true)](https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Latest Version](https://img.shields.io/github/release/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
 [![Latest Release Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/latest/total.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases)
