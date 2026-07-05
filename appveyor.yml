@@ -1,6 +1,6 @@
 version: 1.0.{build}
 image: Visual Studio 2026
+configuration: Release
 
 build:
   project: Source\CRC-32 Calculator.vbproj
-  configuration: Release
