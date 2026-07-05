@@ -40,6 +40,13 @@ winforms
 
 ------------------
 
+[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?branch=master&svg=true)](https://ci.appveyor.com/project/MouriNaruto/nsudo)
+[![Latest Version](https://img.shields.io/github/release/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
+[![Latest Release Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/latest/total.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](License.md)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FM2Team%2FNSudo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FM2Team%2FNSudo?ref=badge_shield)
+
 ## 👋 Introduction
 
 **CRC-32 Calculator for Windows** is a straightforward, no-frills graphical utility designed to calculate the CRC-32 checksum of any file. It does one thing without unnecessary complexity: you give it a file, and it gives you the checksum.
