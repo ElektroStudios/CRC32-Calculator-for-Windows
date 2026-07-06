@@ -44,32 +44,27 @@ winforms
 [![Language](https://img.shields.io/badge/Language-VB.NET-blue.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Framework](https://img.shields.io/badge/Framework-.NET%2010-purple.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgray.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-
 [![GitHub repo size](https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows.svg?label=Repo%20Size)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows/main.svg?label=Last%20Commit)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
-
 [![GitHub issues](https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows.svg?label=Issues)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues)
-[![GitHub stars](https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers)
+[![Maintenance](https://img.shields.io/badge/aintained-yes-green.svg?label=Maintained)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
 
-[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true?label=Build)](https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows)
+[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true&label=Build)](https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Latest Version](https://img.shields.io/github/release/ElektroStudios/CRC32-Calculator-for-Windows.svg?label=Release)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
-[![Latest Release Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/latest/total.svg?label=IssuesDownloads@Latest)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
+[![Latest Release Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/latest/total.svg&label=Downloads@Latest)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg?label=Downloads)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?label=License)](License.md)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield?label=License%20Scan)](https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield)
 
 
 [![GitHub forks](https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members)
-
 [![GitHub watchers](https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers)
 
 
-[![CodeFactor](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows/badge)](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows/badge?label=Codefactor)](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows)
 
 [![Snyk Vulnerabilities](https://snyk.io/test/github/ElektroStudios/CRC32-Calculator-for-Windows/badge.svg)](https://snyk.io/test/github/ElektroStudios/CRC32-Calculator-for-Windows)
-
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
 
 
 ## 👋 Introduction
