@@ -56,6 +56,14 @@ winforms
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](License.md)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield)
 
+
+[![CodeFactor](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows/badge)](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows)
+
+[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+
+
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+
 ## 👋 Introduction
 
 **CRC-32 Calculator for Windows** is a straightforward, no-frills graphical utility designed to calculate the CRC-32 checksum of any file. It does one thing without unnecessary complexity: you give it a file, and it gives you the checksum.
