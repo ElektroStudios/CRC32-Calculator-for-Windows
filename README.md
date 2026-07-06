@@ -38,7 +38,7 @@ winforms
 
 </div>
 
-------------------
+---
 
 <p align="center">
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/language-VB.NET-blue.svg" alt="Language"></a>
