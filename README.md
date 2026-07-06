@@ -77,7 +77,7 @@ winforms
 
 ![screenshot1](/Images/screenshot1.png) ![screensho2](/Images/screenshot2.png)
 
-## 👌 Features
+## 🤖 Features
 
 *   **Simple GUI:** Clear and minimalistic interface with no steep learning curve.
 *   **No Size Limits:** Efficiently processes files of any size without freezing or high memory consumption.
@@ -87,14 +87,12 @@ winforms
 
 - Microsoft Windows OS.
 
-## 🤖 Getting Started
+## 🚀 Getting Started
 
-Download the latest release by clicking [here](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest) and start using it!.
-
-
-1. Navigate to the **[Releases page](/releases/latest)**.
+1. Navigate to the **[Releases page](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)**.
 2. Download the latest `.zip` archive or the `.exe` setup installer, depending on your preference.
-3. If you downloaded the `.zip` archive, extract its contents to your preferred directory. If you chose the `.exe` file, run it and follow the installation wizard.
+3. If you downloaded the `.zip` archive, extract its contents to your preferred directory. 
+   If you chose the `.exe` file, run it and follow the installation wizard.
 4. Run the executable file to launch the application.
 
 ## 🔄 Change Log
