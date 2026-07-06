@@ -39,7 +39,8 @@ winforms
 </div>
 
 ---
-<div align="center">
+
+<p align="center">
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%8D%B4%20Forks" alt="Forks"></a>&nbsp;
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A5%20Contributors" alt="Contributors"></a>&nbsp;
     <a href="https://github.com/ElektroStudios"><img src="https://img.shields.io/github/followers/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A4%20Followers" alt="Followers"></a>&nbsp;
@@ -64,7 +65,7 @@ winforms
   <br>
   <br>
     <a href="https://en.wikipedia.org/wiki/Spanish_Empire"><img src="https://img.shields.io/badge/Made_in-Spain_%F0%9F%87%AA%F0%9F%87%B8-AA151B?style=flat" alt="Made in Spain"></a>
-</div>
+</p>
 
 ---
 
@@ -90,21 +91,15 @@ winforms
 
 Download the latest release by clicking [here](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest) and start using it!.
 
+
+1. Navigate to the **[Releases page](/releases/latest)**.
+2. Download the latest `.zip` archive or the `.exe` setup installer, depending on your preference.
+3. If you downloaded the `.zip` archive, extract its contents to your preferred directory. If you chose the `.exe` file, run it and follow the installation wizard.
+4. Run the executable file to launch the application.
+
 ## 🔄 Change Log
 
 Explore the complete list of changes, bug fixes, and improvements across different releases by clicking [here](/Docs/CHANGELOG.md).
-
-## 🏆 Credits
-
-This work relies on the following resources: 
-
- - [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
-
-## ⚠️ Disclaimer:
-
-This Work (the repository and the content provided in) is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Work or the use or other dealings in the Work.
-
-This Work has no affiliation, approval or endorsement by the author(s) of the third-party libraries used by this Work.
 
 ## 💪 Contributing
 
