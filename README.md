@@ -52,9 +52,7 @@ winforms
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows.svg?logo=git&color=28a745" alt="Activity"></a>
 
 
-<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulse"><img src="https://img.shields.io/github/commit-activity/m/ElektroStudios/CRC32-Calculator-for-Windows?label=Activity" alt="Activity"></a>
-
-<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/github/issues-pr-closed-percentage/ElektroStudios/CRC32-Calculator-for-Windows?label=Issues" alt="Issues Resolution"></a>
+<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows?label=Issues%20Open&color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows?label=Closed&color=28a745" alt="Closed Issues"></a>
 
 
 
