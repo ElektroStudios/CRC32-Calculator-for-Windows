@@ -46,23 +46,24 @@ winforms
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
   <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status" alt="SonarCloud Quality Gate"></a>
   <br>
-  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows?label=Last%20Commit" alt="Last commit"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows" alt="Last commit"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Pull Requests"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows.svg" alt="Open Issues"></a>
-  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows.svg?label=Activity&logo=git&color=28a745" alt="Activity"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows.svg?logo=git&color=28a745" alt="Activity"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/badge/Maintained-yes-green.svg" alt="Maintenance"></a>
   <br>
   <a href="https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true" alt="AppVeyor CI"></a>
-  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/CRC32-Calculator-for-Windows?label=Latest%20Release" alt="Latest Release"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/CRC32-Calculator-for-Windows" alt="Latest Release"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases"><img src="https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg" alt="Total Downloads"></a>
-  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows?label=Repo%20Size" alt="Repo size"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows" alt="Repo size"></a>
   <a href="License.md"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
   <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield" alt="FOSSA Status"></a>
   <br>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Forks"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Contributors"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers"><img src="https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Watchers"></a>
-  <a href="https://github.com/ElektroStudios"><img src="https://img.shields.io/github/followers/ElektroStudios.svg?style=social" alt="Followers"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Stars"></a>
+  <a href="https://github.com/ElektroStudios"><img src="https://img.shields.io/github/followers/ElektroStudios.svg?style=social" alt="Followers"></a>
 </p>
 
 ## 👋 Introduction
