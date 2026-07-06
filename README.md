@@ -29,7 +29,7 @@ windowsapp
 winforms 
  -->
 
-# ![Logo](/Images/App.ico) CRC-32 Calculator for Windows
+# <img src="Images/App.ico" width="64" valign="middle"> CRC-32 Calculator for Windows
 
 ------------------
 
