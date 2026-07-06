@@ -52,7 +52,7 @@ winforms
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows" alt="Last commit"></a>
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/CRC32-Calculator-for-Windows" alt="Pull Requests"></a>
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows?color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows?label=&color=28a745" alt="Closed Issues"></a>
-    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintenance"></a>
+    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulse"><img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintenance"></a>
   <br>
   <br>
     <a href="https://en.wikipedia.org/wiki/Spanish_Empire"><img src="https://img.shields.io/badge/Made_in-Spain_%F0%9F%87%AA%F0%9F%87%B8-AA151B?style=flat" alt="Made in Spain"></a>
