@@ -1,3 +1,13 @@
+# ------------------------------------------
+# CUSTOMIZABLE TEMPLATE REPOSITORY VARIABLES
+# 
+env:
+  SOLUTION_NAME: "CRC-32 Calculator"
+  SOLUTION_EXT:  "slnx"
+  SONAR_PROJECT_KEY:  "ElektroStudios_CRC32-Calculator-for-Windows"
+  SONAR_ORGANIZATION: "elektrostudios"
+# ------------------------------------------
+
 name: SonarQube
 on:
   push:
@@ -38,10 +48,10 @@ jobs:
           New-Item -Path ${{ runner.temp }}\scanner -ItemType Directory
           dotnet tool update dotnet-sonarscanner --tool-path ${{ runner.temp }}\scanner
       - name: Build and analyze
-         env:
-           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-         shell: powershell
-         run: |
-           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"ElektroStudios_CRC32-Calculator-for-Windows" /o:"elektrostudios" /d:sonar.token="$env:SONAR_TOKEN"
-           dotnet build "Source\CRC-32 Calculator.slnx"
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        shell: powershell
+        run: |
+           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"${{ env.SONAR_PROJECT_KEY }}" /o:"${{ env.SONAR_ORGANIZATION }}" /d:sonar.token="$env:SONAR_TOKEN"
+           dotnet build "Source\${{ env.SOLUTION_NAME }}.${{ env.SOLUTION_EXT }}"
            ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="$env:SONAR_TOKEN"

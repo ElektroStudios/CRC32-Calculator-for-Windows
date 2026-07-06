@@ -1,6 +1,10 @@
+# ------------------------------------------
+# CUSTOMIZABLE TEMPLATE REPOSITORY VARIABLES
+# 
 environment:
-  APP_DIR_NAME: CRC-32 Calculator
-  SOLUTION_EXT: slnx
+  APP_DIR_NAME: "CRC-32 Calculator"
+  SOLUTION_EXT: "slnx"
+# ------------------------------------------
 
 version: CI Build {Build}
 skip_commits:
@@ -14,6 +18,7 @@ skip_commits:
   - 'Website/**/*'
   - '*.md'
   - '*.zip'
+  - '*.yml'
 image: Visual Studio 2026
 configuration: Release
 install:
