@@ -53,7 +53,6 @@ winforms
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/CRC32-Calculator-for-Windows" alt="Latest Release"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases"><img src="https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg" alt="Total Downloads"></a>
   <a href="License.md"><img src="https://img.shields.io/github/license/ElektroStudios/CRC32-Calculator-for-Windows" alt="License"></a>
-  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield" alt="FOSSA Status"></a>
   <br>
   <br>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%8D%B4%20Forks" alt="Forks"></a>&nbsp;
