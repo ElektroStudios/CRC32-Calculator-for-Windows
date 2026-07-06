@@ -50,7 +50,6 @@ winforms
 [![Maintenance](https://img.shields.io/badge/aintained-yes-green.svg?label=Maintained)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
 
 [![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true&label=Build)](https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows)
-
 [![Latest Version](https://img.shields.io/github/release/ElektroStudios/CRC32-Calculator-for-Windows.svg?label=Release)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg?label=Total%20Downloads)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?label=License)](License.md)
@@ -61,9 +60,9 @@ winforms
 [![Watchers](https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers)
 [![Stars](https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers)
 
+[![Views](https://badges.toozhao.com/badges/01JKP8Y7Z2M3W4R5V6Q7T8X9Y1)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows&count_bg=%23007ec6&title_bg=%23555555&title=Views)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-
+[![SonarCloud Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows)
 
 ## 👋 Introduction
 
