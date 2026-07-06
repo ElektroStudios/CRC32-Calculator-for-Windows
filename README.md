@@ -102,26 +102,15 @@ Explore the complete list of changes, bug fixes, and improvements across differe
 
 ## ⚠️ Disclaimer
 
-> [!WARNING]
-> **No Warranty Provided**
-> This project and all its repository contents are delivered strictly on an "as-is" basis. The authors disclaim any express or implied warranties, including but not limited to performance, commercial viability, or suitability for any specific purpose. You assume all operational risks regarding its execution, stability, and results.
+This software and its associated repository are provided strictly on an "as is" basis, without warranties of any kind, whether express or implied. This includes, but is not limited to, any implied warranties of merchantability, reliability, or fitness for a particular purpose.
 
-> [!CAUTION]
-> **Limitation of Liability**
-> Under no circumstances shall the developers or copyright owners be held accountable for any direct, indirect, incidental, or consequential damages (including data loss, system errors, or financial impact) arising from the deployment, use, or inability to use this software.
+The authors and copyright holders assume no liability for any direct, indirect, incidental, or consequential damages—including data loss or system errors—arising from the use, misuse, or inability to use this software. You are solely responsible for determining the appropriateness of using this tool and assume all associated risks.
 
----
+Furthermore, this project operates entirely independently. The utilization of any third-party libraries or components within this software does not imply any affiliation with, or endorsement or approval by, their respective original authors.
 
-> [!NOTE]
-> **Third-Party Trademarks & Software**
-> This project operates completely independently. All third-party libraries incorporated into this software remain the intellectual property of their respective creators. Their inclusion does not imply any form of official affiliation, endorsement, or approval by those external authors.
+By using this software, you agree to indemnify and hold harmless the authors from any claims, damages, or liabilities arising from your use of it.
 
-
-
-
-
-
-
+This project is licensed under the [APACHE 2.0](./LICENSE.md). See the LICENSE file for details.
 
 ## 💪 Contributing
 
