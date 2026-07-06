@@ -40,6 +40,13 @@ winforms
 
 ---
 <div align="center">
+    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%8D%B4%20Forks" alt="Forks"></a>&nbsp;
+    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A5%20Contributors" alt="Contributors"></a>&nbsp;
+    <a href="https://github.com/ElektroStudios"><img src="https://img.shields.io/github/followers/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A4%20Followers" alt="Followers"></a>&nbsp;
+    <a href="https://github.com/sponsors/ElektroStudios"><img src="https://img.shields.io/github/sponsors/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%92%96%20Sponsors" alt="Sponsors"></a>&nbsp;
+    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%E2%AD%90%20Stars" alt="Stars"></a>
+  <br>
+  <br>
     <a href="https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true" alt="AppVeyor CI"></a>
     <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status" alt="SonarCloud Quality Gate"></a>
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/CRC32-Calculator-for-Windows" alt="Latest Release"></a>
@@ -53,13 +60,6 @@ winforms
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/CRC32-Calculator-for-Windows" alt="Pull Requests"></a>
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows?color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows?label=&color=28a745" alt="Closed Issues"></a>
     <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulse"><img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintenance"></a>
-  <br>
-  <br>
-    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%8D%B4%20Forks" alt="Forks"></a>&nbsp;
-    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A5%20Contributors" alt="Contributors"></a>&nbsp;
-    <a href="https://github.com/ElektroStudios"><img src="https://img.shields.io/github/followers/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A4%20Followers" alt="Followers"></a>&nbsp;
-    <a href="https://github.com/sponsors/ElektroStudios"><img src="https://img.shields.io/github/sponsors/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%92%96%20Sponsors" alt="Sponsors"></a>&nbsp;
-    <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%E2%AD%90%20Stars" alt="Stars"></a>
   <br>
   <br>
     <a href="https://en.wikipedia.org/wiki/Spanish_Empire"><img src="https://img.shields.io/badge/Made_in-Spain_%F0%9F%87%AA%F0%9F%87%B8-AA151B?style=flat" alt="Made in Spain"></a>
