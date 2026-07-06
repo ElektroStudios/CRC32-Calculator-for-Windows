@@ -110,7 +110,7 @@ Furthermore, this project operates entirely independently. The utilization of an
 
 By using this software, you agree to indemnify and hold harmless the authors from any claims, damages, or liabilities arising from your use or misuse of it.
 
-This project is licensed under the [APACHE 2.0](/LICENSE.md). See the LICENSE file for details.
+This project is licensed under the [APACHE 2.0](./LICENSE). See the LICENSE file for details.
 
 ## 💪 Contributing
 
