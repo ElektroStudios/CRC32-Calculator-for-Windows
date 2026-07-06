@@ -38,7 +38,10 @@ winforms
 
 </div>
 
-# <img src="Images/App.ico" width="64" valign="middle"> CRC-32 Calculator for Windows
+<p align="left">
+  <img src="Images/App.ico" width="64" style="vertical-align: middle;">
+  <b style="font-size: 2em; margin-left: 10px;">CRC-32 Calculator for Windows</b>
+</p>
 
 ### A lightweight desktop tool to compute CRC-32 checksums for files of any size.
 
