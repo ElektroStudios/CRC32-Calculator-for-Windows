@@ -40,6 +40,7 @@ winforms
 
 ------------------
 
+<p align="center">
 [![Language](https://img.shields.io/badge/language-VB.NET-blue.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Framework](https://img.shields.io/badge/framework-.NET%2010-purple.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgray.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
@@ -58,6 +59,7 @@ winforms
 [![Forks](https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members)
 [![Watchers](https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers)
 [![Stars](https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers)
+</p>
 
 ## 👋 Introduction
 
