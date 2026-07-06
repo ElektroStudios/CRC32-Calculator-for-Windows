@@ -109,27 +109,17 @@ Your contribution is highly appreciated!. If you have any ideas, suggestions, or
 
 Your input helps make this Work better for everyone. Thank you for your support! 🚀
 
-## 💰 Beyond Contribution 
+## 💰 Beyond Contribution
 
 This work is distributed for educational purposes and without any profit motive. However, if you find value in my efforts and wish to support and motivate my ongoing work, you may consider contributing financially through the following options:
 
-<br></br>
-<p align="center"><img src="/Images/github_circle.png" height=100></p>
-<p align="center">__________________</p>
-<h3 align="center">Becoming my sponsor on Github:</h3>
-<p align="center">You can show me your support by clicking <a href="https://github.com/sponsors/ElektroStudios/">here</a>, <br align="center">contributing any amount you prefer, and unlocking rewards!</br></p>
-<br></br>
+| Platform | How to Support |
+| :---: | :--- |
+| <a href="https://github.com/sponsors/ElektroStudios/"><img src="/Images/github_circle.png" width="64"></a> | **[Become my sponsor on GitHub](https://github.com/sponsors/ElektroStudios/)**<br>You can show me your support by contributing any amount you prefer, and unlocking rewards! |
+| <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY"><img src="/Images/paypal_circle.png" width="64"></a> | **[Make a PayPal Donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY)**<br>You can donate to me any amount you like via PayPal. |
+| <a href="https://codecanyon.net/item/elektrokit-class-library-for-net/19260282"><img src="/Images/envato_circle.png" width="64"></a> | **[Purchase my software at Envato's CodeCanyon](https://codecanyon.net/item/elektrokit-class-library-for-net/19260282)**<br>If you are a .NET developer, you may want to explore **DevCase Class Library for .NET**, a huge set of APIs I have on sale. *It also contains all pieces of reusable code that you can find across the source code of my open-source works.* |
 
-<p align="center"><img src="/Images/paypal_circle.png" height=100></p>
-<p align="center">__________________</p>
-<h3 align="center">Making a Paypal Donation:</h3>
-<p align="center">You can donate to me any amount you like via Paypal by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E4RQEV6YF5NZY">here</a>.</p>
-<br></br>
-
-<p align="center"><img src="/Images/envato_circle.png" height=100></p>
-<p align="center">__________________</p>
-<h3 align="center">Purchasing software of mine at Envato's Codecanyon marketplace:</h3>
-<p align="center">If you are a .NET developer, you may want to explore '<b>DevCase Class Library for .NET</b>', <br align="center">a huge set of APIs that I have on sale. Check out the product by clicking <a href="https://codecanyon.net/item/elektrokit-class-library-for-net/19260282">here</a></br><br align="center"><i>It also contains all piece of reusable code that you can find across the source code of my open source works.</i></p>
-<br></br>
-
-<h2 align="center"><u>Your support means the world to me! Thank you for considering it!</u> 👍</h2>
+<br>
+<div align="center">
+  <b>Your support means the world to me! Thank you for considering it! 👍</b>
+</div>
