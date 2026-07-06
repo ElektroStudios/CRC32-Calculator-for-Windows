@@ -1,6 +1,31 @@
-version: 1.0.{build}
+version: CI Build {Build}
+skip_commits:
+  files:
+  - '.github/**/*'
+  - 'Docs/**/*'
+  - 'Documents/**/*'
+  - 'Manual/**/*'
+  - 'Images/**/*'
+  - 'Scripts/**/*'
+  - 'Website/**/*'
+  - '*.md'
+  - '*.zip'
 image: Visual Studio 2026
 configuration: Release
-
+install:
+  - >-
+    git submodule update --init --recursive
+before_build:
+  - >-
+    dotnet nuget locals all --clear
 build:
-  project: Source\CRC-32 Calculator.vbproj
+  project: Source\CRC-32 Calculator.slnx
+  parallel: true
+after_build:
+  - >-
+    7z a -r "%APPVEYOR_PROJECT_NAME%_Build_%APPVEYOR_BUILD_NUMBER%.zip" ^
+    ".\Source\bin\*" 
+
+artifacts:
+  - path: "%APPVEYOR_PROJECT_NAME%_Build_%APPVEYOR_BUILD_NUMBER%.zip"
+    name: "%APPVEYOR_PROJECT_NAME%"
