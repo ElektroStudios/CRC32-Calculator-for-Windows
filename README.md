@@ -29,19 +29,12 @@ windowsapp
 winforms 
  -->
 
-<div align="center">
-  <img src="/Images/App.ico" width="150" alt="CRC-32 Calculator Logo">
-  
-  <h1>CRC-32 Calculator for Windows</h1>
-
-### A lightweight desktop tool to compute CRC-32 checksums for files of any size.
-
-</div>
+# ![Logo](/Images/App.ico) CRC-32 Calculator for Windows
 
 ------------------
 
 <p align="center">
-<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/language-VB.NET-blue.svg" alt="Language"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/language-VB.NET-blue.svg" alt="Language"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/framework-.NET%2010-purple.svg" alt="Framework"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows" alt="Last commit"></a>
