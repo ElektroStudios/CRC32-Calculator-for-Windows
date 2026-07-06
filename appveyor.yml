@@ -1,3 +1,7 @@
+environment:
+  APP_DIR_NAME: CRC-32 Calculator
+  SOLUTION_EXT: slnx
+
 version: CI Build {Build}
 skip_commits:
   files:
@@ -19,12 +23,12 @@ before_build:
   - >-
     dotnet nuget locals all --clear
 build:
-  project: Source\CRC-32 Calculator.slnx
+  project: Source\%APP_DIR_NAME%.%SOLUTION_EXT%
   parallel: true
 after_build:
   - >-
     7z a -r "%APPVEYOR_PROJECT_NAME%_Build_%APPVEYOR_BUILD_NUMBER%.zip" ^
-    ".\Source\bin\*" 
+    ".\Source\%APP_DIR_NAME%\bin\*" 
 
 artifacts:
   - path: "%APPVEYOR_PROJECT_NAME%_Build_%APPVEYOR_BUILD_NUMBER%.zip"
