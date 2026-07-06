@@ -1,8 +1,0 @@
-{
-  "languages": {
-    "vb": true
-  },
-  "include": [
-    "Source/**/*.vb"
-  ]
-}
