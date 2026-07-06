@@ -121,5 +121,5 @@ This work is distributed for educational purposes and without any profit motive.
 
 <br>
 <div align="center">
-  <b>Your support means the world to me! Thank you for considering it! 👍</b>
+  <b>Your support means the world to me! Thank you for considering it! 🤗💗</b>
 </div>
