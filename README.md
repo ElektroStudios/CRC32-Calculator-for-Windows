@@ -57,12 +57,21 @@ winforms
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield)
 
 
+[![GitHub forks](https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers)
+
+
 [![CodeFactor](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows/badge)](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows)
 
-[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 
+[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+[![Snyk Vulnerabilities](https://snyk.io/test/github/ElektroStudios/CRC32-Calculator-for-Windows/badge.svg)](https://snyk.io/test/github/ElektroStudios/CRC32-Calculator-for-Windows)
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
+
 
 ## 👋 Introduction
 
