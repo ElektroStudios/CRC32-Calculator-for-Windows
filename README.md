@@ -41,25 +41,24 @@ winforms
 ------------------
 
 <p align="center">
-[![Language](https://img.shields.io/badge/language-VB.NET-blue.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![Framework](https://img.shields.io/badge/framework-.NET%2010-purple.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![Platform](https://img.shields.io/badge/platform-Windows-lightgray.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![Repo size](https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![Last commit](https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows/main.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
-[![Open Issues](https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues)
-[![Maintenance](https://img.shields.io/badge/mintained-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
-<br>
-[![SonarCloud Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows)
-[![AppVeyor CI](https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true)](https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows)
-[![Latest Version](https://img.shields.io/github/release/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest)
-[![Total Downloads](https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](License.md)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield)
-<br>
-[![Forks](https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members)
-[![Watchers](https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers)
-[![Stars](https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers)
-</p>
+<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/language-VB.NET-blue.svg" alt="Language"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/framework-.NET%2010-purple.svg" alt="Framework"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows.svg" alt="Repo size"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows/main.svg" alt="Last commit"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows.svg" alt="Open Issues"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/badge/Maintained-yes-green.svg" alt="Maintenance"></a>
+  <br>
+  <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status" alt="SonarCloud Quality Gate"></a>
+  <a href="https://ci.appveyor.com/project/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://ci.appveyor.com/api/projects/status/github/ElektroStudios/CRC32-Calculator-for-Windows?svg=true" alt="AppVeyor CI"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases/latest"><img src="https://img.shields.io/github/release/ElektroStudios/CRC32-Calculator-for-Windows.svg" alt="Latest Version"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases"><img src="https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg" alt="Total Downloads"></a>
+  <a href="License.md"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield" alt="FOSSA Status"></a>
+  <br>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Forks"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/watchers"><img src="https://img.shields.io/github/watchers/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Watchers"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Stars"></a></p>
 
 ## 👋 Introduction
 
