@@ -1,4 +1,4 @@
-# CRC-32 Calculator for Windows Change Log 📋
+﻿# CRC-32 Calculator for Windows Change Log 📋
 
 ## v1.0.1 *(current)* 🆕
 
