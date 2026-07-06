@@ -45,9 +45,6 @@ winforms
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/framework-.NET%2010-purple.svg" alt="Framework"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows"><img src="https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows" alt="Repo size"></a>
-
-
-  <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status" alt="SonarCloud Quality Gate"></a>
   <br>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows" alt="Last commit"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/CRC32-Calculator-for-Windows" alt="Pull Requests"></a>
@@ -58,6 +55,7 @@ winforms
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/releases"><img src="https://img.shields.io/github/downloads/ElektroStudios/CRC32-Calculator-for-Windows/total.svg" alt="Total Downloads"></a>
   <a href="License.md"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
   <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows?ref=badge_shield"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FElektroStudios%2FCRC32-Calculator-for-Windows.svg?type=shield" alt="FOSSA Status"></a>
+  <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_CRC32-Calculator-for-Windows"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_CRC32-Calculator-for-Windows&metric=alert_status" alt="SonarCloud Quality Gate"></a>
   <br>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Forks"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social" alt="Contributors"></a>
