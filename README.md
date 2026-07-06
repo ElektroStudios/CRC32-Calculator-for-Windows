@@ -30,7 +30,7 @@ winforms
  -->
 
 <div align="center">
-  <img src="/Images/App.ico" width="120" alt="CRC-32 Calculator Logo">
+  <img src="/Images/App.ico" width="100" alt="CRC-32 Calculator Logo">
   
   <h1>CRC-32 Calculator for Windows</h1>
 
@@ -93,12 +93,35 @@ winforms
 2. Download the latest `.zip` archive or the `.exe` setup installer, depending on your preference.
 3. If you downloaded the `.zip` archive, extract its contents to your preferred directory.
    <br> 
-   If you chose the `.exe` file, run it and follow the installation wizard.
+   If you downloaded the `.exe` file, run it and follow the installation wizard.
 4. Run the executable file to launch the application.
 
 ## 🔄 Change Log
 
 Explore the complete list of changes, bug fixes, and improvements across different releases by clicking [here](/Docs/CHANGELOG.md).
+
+## ⚠️ Disclaimer
+
+> [!WARNING]
+> **No Warranty Provided**
+> This project and all its repository contents are delivered strictly on an "as-is" basis. The authors disclaim any express or implied warranties, including but not limited to performance, commercial viability, or suitability for any specific purpose. You assume all operational risks regarding its execution, stability, and results.
+
+> [!CAUTION]
+> **Limitation of Liability**
+> Under no circumstances shall the developers or copyright owners be held accountable for any direct, indirect, incidental, or consequential damages (including data loss, system errors, or financial impact) arising from the deployment, use, or inability to use this software.
+
+---
+
+> [!NOTE]
+> **Third-Party Trademarks & Software**
+> This project operates completely independently. All third-party libraries incorporated into this software remain the intellectual property of their respective creators. Their inclusion does not imply any form of official affiliation, endorsement, or approval by those external authors.
+
+
+
+
+
+
+
 
 ## 💪 Contributing
 
