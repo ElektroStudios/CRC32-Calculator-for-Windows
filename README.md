@@ -41,11 +41,11 @@ winforms
 ------------------
 
 
-[![Language](https://img.shields.io/badge/language-VB.NET-blue.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+[![Language](https://img.shields.io/badge/Language-VB.NET-blue.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Framework](https://img.shields.io/badge/Framework-.NET%2010-purple.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![Platform](https://img.shields.io/badge/platform-Windows-lightgray.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![GitHub repo size](https://img.shields.io/github/repo-size/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows/main.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgray.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+[![GitHub repo size](https://img.shields.io/github/Repo-size/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
+[![GitHub last commit](https://img.shields.io/github/Last-commit/ElektroStudios/CRC32-Calculator-for-Windows/main.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues)
 [![GitHub stars](https://img.shields.io/github/stars/ElektroStudios/CRC32-Calculator-for-Windows.svg?style=social)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/stargazers)
 
@@ -65,12 +65,9 @@ winforms
 [![CodeFactor](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows/badge)](https://www.codefactor.io/repository/github/ElektroStudios/CRC32-Calculator-for-Windows)
 
 
-[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/ElektroStudios/CRC32-Calculator-for-Windows.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
 [![Snyk Vulnerabilities](https://snyk.io/test/github/ElektroStudios/CRC32-Calculator-for-Windows/badge.svg)](https://snyk.io/test/github/ElektroStudios/CRC32-Calculator-for-Windows)
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows)
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main)
 
 
 ## 👋 Introduction
