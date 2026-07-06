@@ -48,13 +48,15 @@ winforms
   <br>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/github/last-commit/ElektroStudios/CRC32-Calculator-for-Windows" alt="Last commit"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/CRC32-Calculator-for-Windows?label=Pull%20Requests" alt="Pull Requests"></a>
-  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows.svg" alt="Open Issues"></a>
+  <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows?label=Issues&color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows?label=&color=28a745" alt="Closed Issues"></a>
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows.svg?logo=git&color=28a745" alt="Activity"></a>
 
 
-<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/github/issues/ElektroStudios/CRC32-Calculator-for-Windows?label=Issues&color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/CRC32-Calculator-for-Windows?label=&color=28a745" alt="Closed Issues"></a>
 
 
+
+
+<a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/issues"><img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Total%20Issues&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Drepo%3AElektroStudios%2FCRC32-Calculator-for-Windows%2Btype%3Aissue" alt="Total Issues"></a>
 
   <a href="https://github.com/ElektroStudios/CRC32-Calculator-for-Windows/commits/main"><img src="https://img.shields.io/badge/Maintained-yes-green.svg" alt="Maintenance"></a>
   <br>
