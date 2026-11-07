@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="CRC-32 Calculator/CRC-32 Calculator.vbproj" Id="570b0f83-8309-4ff0-a38d-1f79c343d65b" />
+  <Project Path="CRC-32 Calculator.Tests/CRC-32 Calculator.Tests.vbproj" />
 </Solution>
