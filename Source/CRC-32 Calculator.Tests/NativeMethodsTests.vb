@@ -118,9 +118,9 @@ Namespace Crc32Calculator.Tests
         <DataRow(ULong.MaxValue)>
         Public Sub StrFormatByteSizeEx_AnyValue_ReturnsSuccessAndNonEmptyString(number As ULong)
 
-            Dim buffer As New StringBuilder(16, 32)
+            Dim buffer As New StringBuilder(32)
 
-            Dim hResult As Integer = ShlwApi.StrFormatByteSizeEx(number, StrFormatByteSizeFlags.Truncate, buffer, CUInt(buffer.MaxCapacity))
+            Dim hResult As Integer = ShlwApi.StrFormatByteSizeEx(number, StrFormatByteSizeFlags.Truncate, buffer, CUInt(buffer.Capacity))
 
             Assert.AreEqual(0, hResult, $"Unexpected HRESULT 0x{hResult:X8} for {number}.")
             Assert.IsFalse(String.IsNullOrWhiteSpace(buffer.ToString()), $"Empty result for {number}.")
@@ -135,11 +135,11 @@ Namespace Crc32Calculator.Tests
         Public Sub StrFormatByteSizeEx_TruncateVersusRound_ProduceDifferentResults()
 
             Const number As ULong = 1535UL
-            Dim truncated As New StringBuilder(16, 32)
-            Dim rounded As New StringBuilder(16, 32)
+            Dim truncated As New StringBuilder(32)
+            Dim rounded As New StringBuilder(32)
 
-            Assert.AreEqual(0, ShlwApi.StrFormatByteSizeEx(number, StrFormatByteSizeFlags.Truncate, truncated, CUInt(truncated.MaxCapacity)))
-            Assert.AreEqual(0, ShlwApi.StrFormatByteSizeEx(number, StrFormatByteSizeFlags.RoundToNearest, rounded, CUInt(rounded.MaxCapacity)))
+            Assert.AreEqual(0, ShlwApi.StrFormatByteSizeEx(number, StrFormatByteSizeFlags.Truncate, truncated, CUInt(truncated.Capacity)))
+            Assert.AreEqual(0, ShlwApi.StrFormatByteSizeEx(number, StrFormatByteSizeFlags.RoundToNearest, rounded, CUInt(rounded.Capacity)))
 
             StringAssert.Contains(truncated.ToString(), "49")
             StringAssert.Contains(rounded.ToString(), "50")

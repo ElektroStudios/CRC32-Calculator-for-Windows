@@ -89,10 +89,12 @@ Friend Module FileInfoHelper
     <DebuggerStepThrough>
     Private Function GetFileSizeString(fInfo As FileInfo) As String
 
-        Dim sizeTextBuffer As New StringBuilder(16, 32)
+        ' The interop marshaler allocates the native buffer from the StringBuilder.Capacity (plus a hidden null char),
+        ' NOT from its MaxCapacity, so the size passed to the function must be the Capacity.
+        Dim sizeTextBuffer As New StringBuilder(32)
         Dim result As Integer =
             NativeMethods.StrFormatByteSizeEx(CULng(fInfo.Length), StrFormatByteSizeFlags.Truncate,
-                                              sizeTextBuffer, CUInt(sizeTextBuffer.MaxCapacity))
+                                              sizeTextBuffer, CUInt(sizeTextBuffer.Capacity))
         If result <> 0 Then
             Marshal.ThrowExceptionForHR(result)
         End If
