@@ -71,6 +71,11 @@ Public NotInheritable Class Form1 : Inherits Form
     ''' </summary>
     Private isUpdatingTextBoxPath As Boolean = False
 
+    ''' <summary>
+    ''' Flag that indicates whether the dark theme is currently applied to this form.
+    ''' </summary>
+    Private isDarkThemeApplied As Boolean = False
+
 #End Region
 
 #Region " Enums "
@@ -101,6 +106,49 @@ Public NotInheritable Class Form1 : Inherits Form
         Canceled
 
     End Enum
+
+#End Region
+
+#Region " Overridden Methods "
+
+    ''' <summary>
+    ''' Raises the <see cref="Control.HandleCreated"/> event.
+    ''' <para></para>
+    ''' Applies the current Windows app theme (light or dark) to the form, including its title bar.
+    ''' </summary>
+    ''' 
+    ''' <remarks>
+    ''' The dark title bar must be applied here (when the window handle exists), 
+    ''' because applying it from the <see cref="Form.Load"/> event has no effect.
+    ''' </remarks>
+    ''' 
+    ''' <param name="e">
+    ''' An <see cref="EventArgs"/> that contains the event data.
+    ''' </param>
+    Protected Overrides Sub OnHandleCreated(e As EventArgs)
+
+        MyBase.OnHandleCreated(e)
+        Me.ApplyWindowsTheme(isThemeChange:=False)
+    End Sub
+
+    ''' <summary>
+    ''' Processes Windows messages.
+    ''' <para></para>
+    ''' Re-applies the Windows app theme when the user switches between the light and dark themes 
+    ''' (or toggles the high contrast mode) while the application is running.
+    ''' </summary>
+    ''' 
+    ''' <param name="m">
+    ''' The Windows <see cref="Message"/> to process.
+    ''' </param>
+    Protected Overrides Sub WndProc(ByRef m As Message)
+
+        MyBase.WndProc(m)
+
+        If WindowsThemeHelper.IsThemeChangeMessage(m) Then
+            Me.ApplyWindowsTheme(isThemeChange:=True)
+        End If
+    End Sub
 
 #End Region
 
@@ -467,6 +515,42 @@ Public NotInheritable Class Form1 : Inherits Form
 #End Region
 
 #Region " Private Methods "
+
+    ''' <summary>
+    ''' Applies the current Windows app theme (light or dark) to the title bar, the controls and the tooltip of this form.
+    ''' </summary>
+    ''' 
+    ''' <remarks>
+    ''' In light theme the original design is kept untouched; 
+    ''' the dark title bar is only requested when the Windows app theme is dark 
+    ''' (or to revert it when switching back from the dark theme).
+    ''' </remarks>
+    ''' 
+    ''' <param name="isThemeChange">
+    ''' <see langword="True"/> if the call is due to a theme change notification while the form is already created; 
+    ''' <see langword="False"/> if the call is due to the window handle creation.
+    ''' </param>
+    Private Sub ApplyWindowsTheme(isThemeChange As Boolean)
+
+        Dim useDarkTheme As Boolean = WindowsThemeHelper.IsDarkThemeEnabled()
+
+        ' WM_SETTINGCHANGE is broadcast for many settings; ignore notifications that do not change the theme.
+        If isThemeChange AndAlso useDarkTheme = Me.isDarkThemeApplied Then
+            Exit Sub
+        End If
+
+        If useDarkTheme OrElse Me.isDarkThemeApplied Then
+            Dim isTitleBarApplied As Boolean = WindowsThemeHelper.SetDarkTitleBar(Me, useDarkTheme)
+            If isTitleBarApplied AndAlso isThemeChange Then
+                WindowsThemeHelper.RedrawTitleBar(Me)
+            End If
+        End If
+
+        ThemeApplier.ApplyTheme(Me, useDarkTheme)
+        ThemeApplier.ApplyTheme(Me.ToolTip1, useDarkTheme)
+
+        Me.isDarkThemeApplied = useDarkTheme
+    End Sub
 
     ''' <summary>
     ''' Updates the text property of the target file path textbox, updates text selection pointers and assigns primary focus.

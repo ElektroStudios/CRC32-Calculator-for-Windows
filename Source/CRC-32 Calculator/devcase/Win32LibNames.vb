@@ -27,6 +27,11 @@ Namespace DevCase.Win32
         ' ReSharper disable InconsistentNaming
 
         ''' <summary>
+        ''' DwmApi.dll
+        ''' </summary>
+        Friend Const DwmApi As String = "dwmapi.dll"
+
+        ''' <summary>
         ''' NtDll.dll
         ''' </summary>
         Friend Const NtDll As String = "ntdll.dll"
@@ -35,6 +40,11 @@ Namespace DevCase.Win32
         ''' ShlwApi.dll
         ''' </summary>
         Friend Const ShlwApi As String = "shlwapi.dll"
+
+        ''' <summary>
+        ''' User32.dll
+        ''' </summary>
+        Friend Const User32 As String = "user32.dll"
 
     End Module
 

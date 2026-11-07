@@ -206,6 +206,73 @@ Namespace Crc32Calculator.Tests
 
 #End Region
 
+#Region " Dark Theme "
+
+        ''' <summary>
+        ''' Verifies that the dark theme is disabled by default (the original design is painted).
+        ''' </summary>
+        <TestMethod>
+        Public Sub UseDarkTheme_NewInstance_DefaultsToFalse()
+
+            Using bar As New TextToolStripProgressBar()
+                Assert.IsFalse(bar.UseDarkTheme)
+            End Using
+        End Sub
+
+        ''' <summary>
+        ''' Verifies that the dark theme paints the empty area and the filled area with the dark theme colors.
+        ''' </summary>
+        '''
+        ''' <param name="value">
+        ''' The progress bar value.
+        ''' </param>
+        '''
+        ''' <param name="expectedColorName">
+        ''' The name of the expected dark theme color of a pixel near the left edge (outside the text area).
+        ''' </param>
+        <TestMethod>
+        <DataRow(0, "ControlBackground", DisplayName:="Empty bar")>
+        <DataRow(100, "ProgressFill", DisplayName:="Full bar")>
+        Public Sub Paint_DarkTheme_UsesDarkThemeColors(value As Integer, expectedColorName As String)
+
+            Dim expected As Color = If(expectedColorName = "ProgressFill", DarkThemeColors.ProgressFill, DarkThemeColors.ControlBackground)
+
+            Using bar As TextToolStripProgressBar = TextToolStripProgressBarTests.CreateBar(0, 100, value, "")
+                bar.UseDarkTheme = True
+
+                Using image As Bitmap = TextToolStripProgressBarTests.Render(bar)
+                    Dim pixel As Color = image.GetPixel(4, image.Height \ 2)
+
+                    Assert.AreEqual(expected.ToArgb(), pixel.ToArgb(), $"Unexpected pixel color: {pixel}.")
+                End Using
+            End Using
+        End Sub
+
+        ''' <summary>
+        ''' Verifies that the dark theme rendering differs from the light (original) rendering, 
+        ''' and that disabling it paints the original design again.
+        ''' </summary>
+        <TestMethod>
+        Public Sub Paint_DarkThemeToggled_ChangesAndRestoresRendering()
+
+            Using bar As TextToolStripProgressBar = TextToolStripProgressBarTests.CreateBar(0, 100, 50, "50%")
+
+                Using lightImage As Bitmap = TextToolStripProgressBarTests.Render(bar)
+                    bar.UseDarkTheme = True
+                    Using darkImage As Bitmap = TextToolStripProgressBarTests.Render(bar)
+                        bar.UseDarkTheme = False
+                        Using restoredImage As Bitmap = TextToolStripProgressBarTests.Render(bar)
+
+                            Assert.IsFalse(TextToolStripProgressBarTests.AreEqual(lightImage, darkImage), "The dark theme was not painted.")
+                            Assert.IsTrue(TextToolStripProgressBarTests.AreEqual(lightImage, restoredImage), "The original design was not restored.")
+                        End Using
+                    End Using
+                End Using
+            End Using
+        End Sub
+
+#End Region
+
 #Region " Private Methods "
 
         ''' <summary>
@@ -231,7 +298,7 @@ Namespace Crc32Calculator.Tests
         ''' <returns>
         ''' The new progress bar.
         ''' </returns>
-        Private Shared Function CreateBar(minimum As Integer, maximum As Integer, value As Integer, text As String) As TextToolStripProgressBar
+        Friend Shared Function CreateBar(minimum As Integer, maximum As Integer, value As Integer, text As String) As TextToolStripProgressBar
 
             Dim bar As New TextToolStripProgressBar()
             bar.ProgressBar.Size = New Size(TextToolStripProgressBarTests.RenderWidth, TextToolStripProgressBarTests.RenderHeight)
@@ -254,7 +321,7 @@ Namespace Crc32Calculator.Tests
         ''' <returns>
         ''' The rendered bitmap.
         ''' </returns>
-        Private Shared Function Render(bar As TextToolStripProgressBar) As Bitmap
+        Friend Shared Function Render(bar As TextToolStripProgressBar) As Bitmap
 
             Dim onPaintMethod As MethodInfo = GetType(Control).GetMethod("OnPaint", BindingFlags.Instance Or BindingFlags.NonPublic)
             If onPaintMethod Is Nothing Then
@@ -302,7 +369,7 @@ Namespace Crc32Calculator.Tests
         ''' <returns>
         ''' <see langword="True"/> if both bitmaps are pixel-identical; otherwise, <see langword="False"/>.
         ''' </returns>
-        Private Shared Function AreEqual(first As Bitmap, second As Bitmap) As Boolean
+        Friend Shared Function AreEqual(first As Bitmap, second As Bitmap) As Boolean
 
             If first.Size <> second.Size Then
                 Return False

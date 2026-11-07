@@ -27,6 +27,29 @@ Public Class TextToolStripProgressBar : Inherits ToolStripProgressBar
         End Set
     End Property
 
+    ''' <summary>
+    ''' Backing field of the <see cref="TextToolStripProgressBar.UseDarkTheme"/> property.
+    ''' </summary>
+    Private _useDarkTheme As Boolean
+
+    ''' <summary>
+    ''' Gets or sets a value indicating whether the progress bar is painted with the dark theme colors.
+    ''' <para></para>
+    ''' When <see langword="False"/> (the default), the progress bar is painted with the system visual styles.
+    ''' </summary>
+    <System.ComponentModel.DefaultValue(False)>
+    Public Property UseDarkTheme As Boolean
+        Get
+            Return Me._useDarkTheme
+        End Get
+        Set(value As Boolean)
+            If value <> Me._useDarkTheme Then
+                Me._useDarkTheme = value
+                Me.ProgressBar.Invalidate()
+            End If
+        End Set
+    End Property
+
     Public Sub New()
         MyBase.New()
 
@@ -49,7 +72,11 @@ Public Class TextToolStripProgressBar : Inherits ToolStripProgressBar
         Dim bounds As Rectangle = Me.ProgressBar.ClientRectangle
 
         ' 1. Render the control background
-        If ProgressBarRenderer.IsSupported Then
+        If Me._useDarkTheme Then
+            Using backgroundBrush As New SolidBrush(DarkThemeColors.ControlBackground)
+                g.FillRectangle(backgroundBrush, bounds)
+            End Using
+        ElseIf ProgressBarRenderer.IsSupported Then
             ProgressBarRenderer.DrawHorizontalBar(g, bounds)
         Else
             g.FillRectangle(SystemBrushes.Control, bounds)
@@ -72,7 +99,11 @@ Public Class TextToolStripProgressBar : Inherits ToolStripProgressBar
             If progressWidth > 0 Then
                 Dim progressBounds As New Rectangle(0, 0, progressWidth, bounds.Height)
 
-                If ProgressBarRenderer.IsSupported Then
+                If Me._useDarkTheme Then
+                    Using fillBrush As New SolidBrush(DarkThemeColors.ProgressFill)
+                        g.FillRectangle(fillBrush, progressBounds)
+                    End Using
+                ElseIf ProgressBarRenderer.IsSupported Then
                     ProgressBarRenderer.DrawHorizontalChunks(g, progressBounds)
                 Else
                     g.FillRectangle(SystemBrushes.Highlight, progressBounds)
@@ -86,9 +117,16 @@ Public Class TextToolStripProgressBar : Inherits ToolStripProgressBar
             Dim textX As Single = (bounds.Width - textSize.Width) / 2.0F
             Dim textY As Single = (bounds.Height - textSize.Height) / 2.0F
 
-            g.DrawString(Me._customText, textFont, Brushes.Black, textX, textY)
+            g.DrawString(Me._customText, textFont, If(Me._useDarkTheme, Brushes.White, Brushes.Black), textX, textY)
         End Using
+
+        ' 5. Render a thin border in dark theme (the visual styles renderer already draws its own border).
+        If Me._useDarkTheme Then
+            Using borderPen As New Pen(DarkThemeColors.Border)
+                g.DrawRectangle(borderPen, bounds.X, bounds.Y, bounds.Width - 1, bounds.Height - 1)
+            End Using
+        End If
 
     End Sub
 
-End Class
+End Class

@@ -73,6 +73,9 @@
   <ItemGroup>
     <Compile Include="AppGlobals.vb" />
     <Compile Include="devcase\BufferSizes.vb" />
+    <Compile Include="devcase\DwmWindowAttribute.vb" />
+    <Compile Include="devcase\NativeMethods_DwmApi.vb" />
+    <Compile Include="devcase\NativeMethods_User32.vb" />
     <Compile Include="devcase\NativeMethods_ShlwApi.vb" />
     <Compile Include="devcase\NativeMethods_NtDll.vb" />
     <Compile Include="devcase\StrFormatByteSizeFlags.vb" />
@@ -88,6 +91,10 @@
     </Compile>
     <Compile Include="helpers\FileInfoHelper.vb" />
     <Compile Include="helpers\PathHelper.vb" />
+    <Compile Include="theming\DarkThemeColors.vb" />
+    <Compile Include="theming\DarkToolStripRenderer.vb" />
+    <Compile Include="theming\ThemeApplier.vb" />
+    <Compile Include="theming\WindowsThemeHelper.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
