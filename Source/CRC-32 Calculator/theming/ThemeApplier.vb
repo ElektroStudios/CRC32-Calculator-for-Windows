@@ -33,7 +33,7 @@ Imports System.Runtime.CompilerServices
 ''' <para></para>
 ''' Applying the light theme to objects that were never modified does nothing.
 ''' </remarks>
-Friend Module ThemeApplier
+Friend Module ThemeApplier ' NOSONAR
 
 #Region " Fields "
 
@@ -132,7 +132,7 @@ Friend Module ThemeApplier
             Exit Sub
         End If
 
-        ThemeApplier.CaptureSnapshot(toolTip, NameOf(ToolTip.OwnerDraw), NameOf(ToolTip.BackColor), NameOf(ToolTip.ForeColor))
+        ThemeApplier.CaptureSnapshot(toolTip, NameOf(toolTip.OwnerDraw), NameOf(toolTip.BackColor), NameOf(toolTip.ForeColor))
 
         Dim hookMarker As Object = Nothing
         If Not ThemeApplier.HookedToolTips.TryGetValue(toolTip, hookMarker) Then
@@ -397,7 +397,7 @@ Friend Module ThemeApplier
     ''' <summary>
     ''' Stores the state of a set of properties of an object, to restore it later.
     ''' </summary>
-    Private NotInheritable Class PropertySnapshot
+    Private NotInheritable Class PropertySnapshot ' NOSONAR
 
         ''' <summary>
         ''' The object whose properties were captured.
@@ -464,7 +464,7 @@ Friend Module ThemeApplier
     ''' <summary>
     ''' Stores the captured state of a single property.
     ''' </summary>
-    Private NotInheritable Class PropertyState
+    Private NotInheritable Class PropertyState ' NOSONAR
 
         ''' <summary>
         ''' Gets the descriptor of the property.

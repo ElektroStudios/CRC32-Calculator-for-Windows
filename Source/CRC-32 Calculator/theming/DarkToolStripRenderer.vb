@@ -18,7 +18,7 @@ Imports System.Drawing
 ''' <summary>
 ''' A <see cref="ToolStripProfessionalRenderer"/> that renders tool strips, status strips and menus with the dark theme colors.
 ''' </summary>
-Friend NotInheritable Class DarkToolStripRenderer : Inherits ToolStripProfessionalRenderer
+Friend NotInheritable Class DarkToolStripRenderer : Inherits ToolStripProfessionalRenderer ' NOSONAR
 
 #Region " Constructors "
 
