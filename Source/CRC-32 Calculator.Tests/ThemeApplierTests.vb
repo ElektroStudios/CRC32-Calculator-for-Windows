@@ -91,18 +91,26 @@ Namespace Crc32Calculator.Tests
         End Sub
 
         ''' <summary>
-        ''' Verifies that the controls hosted by tool strip items are not themed as standalone controls.
+        ''' Verifies that the controls hosted by tool strip items are not themed as standalone controls: 
+        ''' none of their color properties is explicitly assigned.
         ''' </summary>
+        ''' 
+        ''' <remarks>
+        ''' The values themselves may change, because a hosted control without explicit colors inherits 
+        ''' the (ambient) colors of the tool strip that contains it; that is expected and harmless.
+        ''' </remarks>
         <TestMethod>
         Public Sub ApplyTheme_Dark_DoesNotModifyControlsHostedByToolStripItems()
 
             Using fixture As New FormFixture()
-                Dim before As String() = ThemeApplierTests.CaptureAppearance(fixture.ProgressBar.ProgressBar, NameOf(Control.BackColor), NameOf(Control.ForeColor))
+                Dim hostedControl As Control = fixture.ProgressBar.ProgressBar
+                Assert.IsFalse(ThemeApplierTests.IsExplicitlySet(hostedControl, NameOf(Control.BackColor)), "Precondition: BackColor must be inherited.")
+                Assert.IsFalse(ThemeApplierTests.IsExplicitlySet(hostedControl, NameOf(Control.ForeColor)), "Precondition: ForeColor must be inherited.")
 
                 ThemeApplier.ApplyTheme(fixture.Form, useDarkTheme:=True)
 
-                Dim after As String() = ThemeApplierTests.CaptureAppearance(fixture.ProgressBar.ProgressBar, NameOf(Control.BackColor), NameOf(Control.ForeColor))
-                CollectionAssert.AreEqual(before, after)
+                Assert.IsFalse(ThemeApplierTests.IsExplicitlySet(hostedControl, NameOf(Control.BackColor)), "BackColor was explicitly assigned.")
+                Assert.IsFalse(ThemeApplierTests.IsExplicitlySet(hostedControl, NameOf(Control.ForeColor)), "ForeColor was explicitly assigned.")
             End Using
         End Sub
 
@@ -202,8 +210,14 @@ Namespace Crc32Calculator.Tests
 
         ''' <summary>
         ''' Verifies that a tool strip item added after the dark theme was applied (as the application does in the Load event)
-        ''' inherits the dark text color, and that the light theme leaves it with an inherited color too.
+        ''' inherits the dark text color once the tool strip lays it out, and that the light theme leaves it with an inherited color too.
         ''' </summary>
+        ''' 
+        ''' <remarks>
+        ''' A tool strip item without an explicit text color inherits it from the tool strip it is placed on, 
+        ''' and that placement happens during the tool strip layout (in the application, when the form is shown). 
+        ''' The test form is never shown, so the layout is forced explicitly.
+        ''' </remarks>
         <TestMethod>
         Public Sub ApplyTheme_ItemAddedAfterDarkTheme_InheritsColorsAndIsRestored()
 
@@ -212,11 +226,16 @@ Namespace Crc32Calculator.Tests
 
                 Dim lateButton As New ToolStripButton("Late")
                 fixture.StatusStrip.Items.Add(lateButton)
+                fixture.StatusStrip.PerformLayout()
+
+                Assert.AreEqual(ToolStripItemPlacement.Main, lateButton.Placement,
+                                "Precondition: the item must be placed on the status strip after its layout.")
                 Assert.AreEqual(DarkThemeColors.Text, lateButton.ForeColor)
 
                 ThemeApplier.ApplyTheme(fixture.Form, useDarkTheme:=False)
 
                 Assert.IsFalse(ThemeApplierTests.IsExplicitlySet(lateButton, NameOf(ToolStripItem.ForeColor)))
+                Assert.AreEqual(fixture.StatusStrip.ForeColor, lateButton.ForeColor)
             End Using
         End Sub
 
